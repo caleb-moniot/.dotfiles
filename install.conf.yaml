@@ -7,6 +7,8 @@
 
 - link:
     ~/.oh-my-zsh: oh-my-zsh
+    ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions: custom/plugins/zsh-autosuggestions
+    ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting: custom/plugins/zsh-syntax-highlighting
     ~/.gitconfig: gitconfig
     ~/.bash_profile: bash_profile
     ~/.bashrc: bashrc
@@ -15,5 +17,3 @@
 
 - shell:
   - ["git submodule update --init --recursive", "Installing submodules"]
-  - ["git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-${HOME}/.oh-my-zsh/custom}/plugins/zsh-autosuggestions", "Installing zsh-autosuggestions"]
-  - ["git clone https://github.com/zsh-users/zsh-syntax-highlighting ${ZSH_CUSTOM:-${HOME}/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting", "Installing zsh-syntax-highlighting"]
