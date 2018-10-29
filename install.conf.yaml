@@ -7,7 +7,7 @@
 - link:
     ~/.gitconfig:
       force: true
-      path: git/gitconfig
+      path: gitconfig
     ~/.bash_profile: 
       force: true
       path: bash_profile
