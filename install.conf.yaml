@@ -5,6 +5,9 @@
 - clean: ['~']
 
 - link:
+    ~/.gitconfig:
+      force: true
+      path: git/gitconfig
     ~/.bash_profile: 
       force: true
       path: bash_profile

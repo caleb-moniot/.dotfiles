@@ -1,0 +1,5 @@
+[user]
+    email = moniot@amazon.com
+    name = Caleb Moniot
+[push]
+    default = simple
