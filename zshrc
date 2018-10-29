@@ -88,10 +88,6 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-# User Aliases
-alias ls="ls -h --group-directories-first --color=always"
-alias ll="ls -lah --group-directories-first --color=always"
-
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -119,5 +115,6 @@ alias ll="ls -lah --group-directories-first --color=always"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# Source aliases
-source "${HOME}/.dotfiles/aliases.sh"
+# User Aliases
+alias ls="ls -h --group-directories-first --color=always"
+alias ll="ls -lah --group-directories-first --color=always"
